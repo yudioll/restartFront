@@ -23,5 +23,6 @@ module.exports = {
       }
     },
   },
+  dest: 'public',
   head: [["link", { rel: "icon", href: "/logo.png" }]],
 };
