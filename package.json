@@ -1,0 +1,25 @@
+{
+  "name": "restartFront",
+  "version": "1.0.0",
+  "description": "重学fe",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudioll/restartFront.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yudioll/restartFront/issues"
+  },
+  "homepage": "https://github.com/yudioll/restartFront#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-theme-reco": "^1.6.6"
+  }
+}
