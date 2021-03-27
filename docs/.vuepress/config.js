@@ -3,7 +3,6 @@ module.exports = {
   description: "一名前端coder，再这里记录自己的所学所得.",
   theme: "reco",
   themeConfig: {
-    type: 'blog',
     author: 'yudioll',
     subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     // nav: [{ text: "TimeLine", link: "/timeline/", icon: "reco-date" }],
