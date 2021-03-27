@@ -9,10 +9,6 @@ module.exports = {
     // nav: [{ text: "TimeLine", link: "/timeline/", icon: "reco-date" }],
     // 博客配置
     blogConfig: {
-      home:{
-          location:1, // 在导航栏菜单中所占的位置，默认1
-          text:"home"
-      },
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
         text: "文章分类", // 默认文案 “分类”
