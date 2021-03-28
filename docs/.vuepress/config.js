@@ -1,24 +1,19 @@
+const head = require('./config/head.js');
+const plugins = require('./config/plugins.js');
+const themeConfig = require('./config/themeConfig.js');
+
 module.exports = {
-  title: "yudioll",
-  description: "一名前端coder，再这里记录自己的所学所得.",
-  theme: "reco",
-  themeConfig: {
-    type:'blog',
-    author: 'yudioll',
-    subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
-    // nav: [{ text: "TimeLine", link: "/timeline/", icon: "reco-date" }],
-    // 博客配置
-    blogConfig: {
-      category: {
-        location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: "文章分类", // 默认文案 “分类”
-      },
-      tag: {
-        location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: "文章Tag", // 默认文案 “标签”
-      }
-    },
+  theme: 'vdoing', // 使用依赖包主题
+  // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
+
+  title: "yudioll's blog",
+  description: 'web前端技术博客,简洁至上,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github等技术文章。',
+  // base: '/', // 格式：'/<仓库名>/'， 默认'/'
+  markdown: {
+    lineNumbers: true, // 代码行号
   },
   dest: 'public',
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
-};
+  head,
+  plugins,
+  themeConfig,
+}
