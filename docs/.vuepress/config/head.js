@@ -9,4 +9,13 @@ module.exports = [
     },
   ],
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+  ['script',{},`
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?057ce2ee95c2229950e3ae0cfd2155f8";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  `]
 ]
