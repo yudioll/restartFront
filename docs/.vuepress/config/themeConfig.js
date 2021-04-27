@@ -31,7 +31,7 @@ module.exports = {
   //   '图标地址1',
   //   '图标地址2'
   // ],
-  // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
+  contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
 
   // updateBar: { // 最近更新栏
   //   showToArticle: true, // 显示到文章页底部，默认true
@@ -79,6 +79,8 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'yudioll | <a href="https://github.com/yudioll/restartFront" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      `yudioll | <a href="https://github.com/yudioll/restartFront" target="_blank">MIT License</a> | 
+      <a href="https://beian.miit.gov.cn" target="_blank" title="京ICP备2020038424号-1">京ICP备2020038424号-1</a> 
+      `, // 博客版权信息，支持a标签
   },
 }
